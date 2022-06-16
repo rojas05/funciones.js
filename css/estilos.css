@@ -1,0 +1,68 @@
+body{
+    margin-top: 10%;     font: 60px Arial,Helvetica,sans-serif; font-size: 40px;
+}
+table{
+    background-color: #ADC2CC; border-radius: 15px;   padding: 8px; border:solid #25556B;
+}
+.boton1{
+    font-size: 80 px;
+    margin: center;
+    margin-left: 15px;
+    background-color:hsl(0, 0%, 100%);
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+    border: 10px solid #000000;
+    border:outset;
+    
+}
+.boton2{
+    font-size: 80 px;
+    margin: center;
+    margin-left: 15px;
+    background-color:#E4D4BF ;
+    width: 60px; 
+    height: 50px;
+    border-radius: 10px;
+    border: 20px solid #F88D30;
+    border:outset;
+    
+}
+input{
+
+    width: 300px;
+    height: 80px;
+    border :  30px linear-gradient(to right,#F88D30,#587E90); 
+    border-radius: 10px;
+    font-size: 20px;
+   
+}
+
+.gradient-border{
+    background: linear-gradient(to right,#F88D30,#587E90); 
+    padding: 20px;
+    background-repeat: repeat;
+    margin-left: 10px;
+    margin-top: auto;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    animation: gradient 10s linear infinite;
+    border-style: dashed;
+
+}
+@keyframes gradient {
+    0%{
+    background-position: 0 0;
+    }
+    50%{
+        background-position: -100mm 0;
+    }
+
+    100%{
+        background-position: 0 0;
+    }
+}
+
+button{  padding: 10px; }
+
